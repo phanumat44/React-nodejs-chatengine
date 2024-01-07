@@ -40,6 +40,7 @@ To start the development server for the frontend, run:
  ```bash
 cd frontend
 npm run dev
+```
 
 The frontend application will be available at http://localhost:5173
 
@@ -49,6 +50,7 @@ To start the Node.js backend server, run:
  ```bash
 cd backend
 npm start
+```
 
 The backend API will be available at http://localhost:3001
 
