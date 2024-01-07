@@ -1,16 +1,33 @@
-# ReactJS Project with ViteJS and ChatEngine
+# React Frontend with ViteJS and Node.js Backend API
 
-This project is a React application built with ViteJS that integrates ChatEngine for chat functionalities.
+This project consists of a React frontend built with ViteJS and a Node.js backend API.
 
-## Getting Started
+## Project Structure
 
-### Prerequisites
-
-Make sure you have Node.js and npm installed on your machine.
-
-### Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/phanumat44/React-nodejs-chatengine
+React-nodejs-chatengine
+   ├── frontend/
+   │ ├── public/
+   │ ├── src/
+   │ │ ├── components/
+   │ │ │ ├── ChatComponent.js
+   │ │ │ └── ...
+   │ │ ├── App.js
+   │ │ └── ...
+   │ ├── package.json
+   │ ├── vite.config.js
+   │ └── ...
+   ├── backend/
+   │ ├── controllers/
+   │ │ ├── ChatController.js
+   │ │ └── ...
+   │ ├── models/
+   │ │ ├── Message.js
+   │ │ └── ...
+   │ ├── routes/
+   │ │ ├── apiRoutes.js
+   │ │ └── ...
+   │ ├── app.js
+   │ ├── package.json
+   │ └── ...
+   ├── package.json
+   └── ...
